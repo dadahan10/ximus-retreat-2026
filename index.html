@@ -343,6 +343,24 @@
     .people-strip img { height: 280px; }
     .specs-grid { grid-template-columns: repeat(2, 1fr); }
   }
+
+  @media (max-width: 480px) {
+    .topbar { padding: 12px 16px; font-size: 0.62rem; letter-spacing: 0.12em; }
+    .hero { padding: 48px 20px 40px; }
+    .pendant-wrap img { width: min(260px, 78vw); }
+    .pendant-wrap { margin-bottom: 32px; }
+    section { padding: 48px 20px; }
+    .zar-section { padding: 56px 20px; }
+    .zar-quote { font-size: clamp(2rem, 10vw, 3rem); }
+    .zar-content { gap: 28px; }
+    .zar-content img { width: 140px; }
+    .pillar { padding: 28px 20px; }
+    .specs-grid { grid-template-columns: 1fr 1fr; }
+    .spec-item { padding: 20px 14px; }
+    .footer { padding: 40px 20px; }
+    .concept-images img:first-child { aspect-ratio: 4/3; }
+    .section-title { font-size: 1.5rem; }
+  }
 </style>
 </head>
 <body>
